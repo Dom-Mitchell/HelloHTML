@@ -117,7 +117,18 @@ footer {
   border-radius: 50%;
   background-position: 50%;
   image-rendering: cover;
+  /* overflow: hidden; */
+
   border: 5px solid var(--copper);
+}
+
+.picture img:hover {
+  border: none;
+  width: 200px;
+  height: auto;
+  border-radius: 0%;
+  background-position: none;
+  image-rendering: none;
 }
 
 .background {
@@ -236,16 +247,26 @@ img:nth-last-child() {
   height: 50px;
 }
 
-.rounded-corner img {
+.rounded-corner {
   padding-top: 5px;
+}
+
+.rounded-corner img {
   border-radius: 30px;
+  border: 5px solid var(--copper);
+}
+
+.hidden-text2 {
+  display: none;
+  padding-left: 75px;
 }
 
 .hidden-text {
   display: none;
 }
 
-.rounded-corner img:hover + .hidden-text {
+.rounded-corner img:hover + .hidden-text2,
+.picture img:hover + .hidden-text {
   display: block;
   color: black;
   text-decoration: underline solid 2px;
