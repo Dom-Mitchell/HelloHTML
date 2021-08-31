@@ -258,9 +258,12 @@ img:nth-last-child() {
   height: 50px;
 }
 
-.rounded-corner,
-.video video {
+.rounded-corner {
   padding-top: 5px;
+}
+
+.video {
+  padding-top: 10px;
 }
 
 .rounded-corner img,
