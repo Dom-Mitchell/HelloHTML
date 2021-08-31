@@ -2,7 +2,7 @@
 
 ## Assignment
 
-The goal of this assignment was to create a basic webpage to display knowledge of html.html.
+The goal of this assignment was to create a basic webpage to display knowledge of html.
 
 ![image of My webpage](././images/mypage.png)
 
