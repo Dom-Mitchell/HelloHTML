@@ -81,7 +81,8 @@ h1 {
 ul li,
 p,
 .hidden-text,
-.hidden-text2 {
+.hidden-text2,
+.hidden-text3 {
   font-family: 'Merriweather', serif;
 }
 
@@ -262,7 +263,8 @@ img:nth-last-child() {
   padding-top: 5px;
 }
 
-.rounded-corner img {
+.rounded-corner img,
+.video video {
   border-radius: 30px;
   border: 5px solid var(--copper);
 }
