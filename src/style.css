@@ -80,7 +80,8 @@ h1 {
 
 ul li,
 p,
-.hidden-text {
+.hidden-text,
+.hidden-text2 {
   font-family: 'Merriweather', serif;
 }
 
@@ -123,6 +124,15 @@ footer {
 }
 
 .picture img:hover {
+  border: none;
+  width: 200px;
+  height: auto;
+  border-radius: 0%;
+  background-position: none;
+  image-rendering: none;
+}
+
+.picture img:active {
   border: none;
   width: 200px;
   height: auto;
@@ -247,13 +257,18 @@ img:nth-last-child() {
   height: 50px;
 }
 
-.rounded-corner {
+.rounded-corner,
+.video {
   padding-top: 5px;
 }
 
 .rounded-corner img {
   border-radius: 30px;
   border: 5px solid var(--copper);
+}
+
+.hidden-text3 {
+  display: none;
 }
 
 .hidden-text2 {
@@ -266,7 +281,8 @@ img:nth-last-child() {
 }
 
 .rounded-corner img:hover + .hidden-text2,
-.picture img:hover + .hidden-text {
+.picture img:hover + .hidden-text,
+.video:hover + .hidden-text3 {
   display: block;
   color: black;
   text-decoration: underline solid 2px;
